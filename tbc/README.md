@@ -10,6 +10,7 @@ TBC Payment System for [Laravel 5.*](http://laravel.com/)
 
 Inspired from [tbcpay-php](https://github.com/wearede/tbcpay-php), created by [Sandro Dzneladze](https://github.com/sandrodz)
 
+Modified [ZGabievi/laravel-tbcpay](https://github.com/zgabievi/laravel-tbcpay) for new TBC Payment system by Vati
 ## Table of Contents
 - [Installation](#installation)
     - [Composer](#composer)
@@ -100,7 +101,7 @@ Create `payment/tbc.blade.php`. It should look like:
     <h2>Error:</h2>
     <h1>{{ $start['error'] }}</h1>
 @elseif(isset($start['TRANSACTION_ID']))
-    <form name="returnform" id="Pay" action="https://securepay.ufc.ge/ecomm2/ClientHandler" method="POST">
+    <form name="returnform" id="Pay" action="{{config('tbc.client_handler')}}" method="POST">
         <input type="hidden" name="trans_id" value="{{ $start['TRANSACTION_ID'] }}">
 
         <noscript>

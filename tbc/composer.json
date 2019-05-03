@@ -1,17 +1,23 @@
 {
-	"name": "zgabievi/tbc",
+	"name": "vati/tbc",
 	"description": "TBC Payment System",
 	"keywords": [
 		"zgabievi",
+		"vati",
 		"payment",
 		"tbc"
 	],
-	"homepage": "https://github.com/zgabievi/tbc",
+	"homepage": "https://github.com/Vatia13/laravel-tbcpay",
 	"license": "MIT",
 	"authors": [
 		{
 			"name": "zgabievi",
 			"email": "zura.gabievi@gmail.com",
+			"role": "Developer"
+		},
+		{
+			"name": "vati",
+			"email": "vatichild@gmail.com",
 			"role": "Developer"
 		}
 	],
