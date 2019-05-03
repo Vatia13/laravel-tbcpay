@@ -27,7 +27,7 @@ Modified [ZGabievi/laravel-tbcpay](https://github.com/zgabievi/laravel-tbcpay) f
 
 Run composer command in your terminal.
 
-    composer require zgabievi/tbc
+    composer require vati/tbc
 
 ### Laravel
 
